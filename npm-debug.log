@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\tools\\programming\\nodejs\\node.exe',
+1 verbose cli   'D:\\tools\\programming\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.14.2
+3 info using node@v4.0.0
+4 verbose readDependencies loading dependencies from D:\projects\HTML&CSS_practice\package.json
+5 error install Couldn't read dependencies
+6 verbose stack Error: Invalid name: "HTML&CSS_practice"
+6 verbose stack     at ensureValidName (D:\tools\programming\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\fixer.js:331:15)
+6 verbose stack     at Object.module.exports.fixNameField (D:\tools\programming\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\fixer.js:210:5)
+6 verbose stack     at D:\tools\programming\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\normalize.js:32:38
+6 verbose stack     at Array.forEach (native)
+6 verbose stack     at normalize (D:\tools\programming\nodejs\node_modules\npm\node_modules\normalize-package-data\lib\normalize.js:31:15)
+6 verbose stack     at final (D:\tools\programming\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:338:5)
+6 verbose stack     at then (D:\tools\programming\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:113:5)
+6 verbose stack     at ReadFileContext.callback (D:\tools\programming\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:284:20)
+6 verbose stack     at FSReqWrap.readFileAfterOpen [as oncomplete] (evalmachine.<anonymous>:303:13)
+7 verbose cwd D:\projects\HTML&CSS_practice
+8 error Windows_NT 10.0.10586
+9 error argv "D:\\tools\\programming\\nodejs\\node.exe" "D:\\tools\\programming\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+10 error node v4.0.0
+11 error npm  v2.14.2
+12 error Invalid name: "HTML&CSS_practice"
+13 error If you need help, you may report this error at:
+13 error     <https://github.com/npm/npm/issues>
+14 verbose exit [ 1, true ]
